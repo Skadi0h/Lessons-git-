@@ -9,4 +9,5 @@ Task:
 one_var: int = 1
 ok_var: str = "Ok"
 
-print("My second variable:", ok_var.isupper())
+print("My second variable:", ok_var.upper())
+print("Number of bits", one_var.bit_count())
