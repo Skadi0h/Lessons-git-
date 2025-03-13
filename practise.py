@@ -35,46 +35,4 @@ Task 1 ( Find Klement )
 # print(names[attempts])
 
 
-"""
-Task 2 ( Find substring in string )
-Find start end end index of substring in string.
-( Найди начало и конец подстроки в строке )
 
-String = sequence of chars
-ex.
-    string_var = "Добро пожаловать в игру!"
-    substring_var = "в игру!"
-"""
-
-# string_var = "Добро пожаловать в игру!"
-# substring_var = "в игру!"
-#
-# start_of_substring = 0
-# end_of_substring = 0
-# for char in string_var:
-#     ...
-# print("Correct:", string_var[start_of_substring: end_of_substring] == substring_var)
-
-"""
-Task 3 ( Calculate factorial of some number )
-
-Example:
-    factorial = 1 * 2 * 3 * 4 * 5
-"""
-number = 5
-factorial = 1  # результат должен сохраниться тут
-
-# пиши код тут
-
-
-
-
-
-# Код ниже - не трогать
-def factorial_check(_number: int) -> int:
-    if _number == 0:
-        return 1
-    return factorial_check(_number - 1) * _number
-
-
-print("Correct: ", factorial_check(number) == factorial)
