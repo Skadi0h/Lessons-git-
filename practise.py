@@ -36,7 +36,7 @@ Task 1 ( Find Klement )
 
 
 """
-Task 2 ( Find substring on string )
+Task 2 ( Find substring in string )
 Find start end end index of substring in string.
 ( Найди начало и конец подстроки в строке )
 
@@ -51,6 +51,7 @@ substring_var = "в игру!"
 
 start_of_substring = 0
 end_of_substring = 0
-
+for char in string_var:
+    ...
 print("Correct:", string_var[start_of_substring: end_of_substring] == substring_var)
 
