@@ -4,6 +4,7 @@ Cycles in Python
 Iterable: ( eng. Iterable - перечисляемый )
 
 Examples of iterable:
+    str_number = "123" - str, строка
     numbers = [1, 2, 3] - list, список
     set_numbers = {1, 2, 3} - set, множество
     dict_numbers = {"a": 1, "b": 2, "c": 3} - dict, словарь
