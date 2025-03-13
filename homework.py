@@ -6,5 +6,10 @@ Task:
     2) Print table between dishes and their numbers ( indexes )
         EXAMPLE ( don't use explicit values, ex. prints with new strings )
             BMW - 0
-            Mercedes - 1
 """
+menu =["Varenichki", "Borshik", "Plov", "Oladushki", "Blinchiki", "Pelmeni", "Makaroshki", "Zrazy", "Supchik", "Kartoshechka"]
+print("Dishes:", menu)
+menu.reverse()
+print("Reverse Dishes:" , menu)
+for index, dish in enumerate(menu):
+    print(f"{dish} - {index}")
