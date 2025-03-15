@@ -1,5 +1,5 @@
 """
-Task 2 ( Find substring in string )
+Task 1 ( Find substring in string )
 Find start end end index of substring in string.
 ( Найди начало и конец подстроки в строке )
 
@@ -22,7 +22,7 @@ end_of_substring = 0  # и тут
 
 
 """
-Task 3 ( Calculate sum of lowest numbers )
+Task 2 ( Calculate sum of lowest numbers )
 
 Example:
     sum_numbers = 1 + 2 + 3 + 4 + 5
@@ -31,7 +31,8 @@ number = 5
 sum_numbers = 0  # результат должен сохраниться тут
 
 # пиши код тут
-
+for summe in range(1,number + 1):
+    sum_numbers += summe
 
 
 
