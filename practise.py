@@ -34,5 +34,3 @@ Task 1 ( Find Klement )
 # print("Short version:", names.index("Klement"))
 # print(names[attempts])
 
-
-
