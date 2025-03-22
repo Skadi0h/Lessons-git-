@@ -23,7 +23,8 @@ Hint:
     you may append items to list
     words.append(word)
 """
-text = input("Enter text:")
+
+text = input("Enter text:") + ' '
 words = []
 for listk in text:
     if listk != " ":
