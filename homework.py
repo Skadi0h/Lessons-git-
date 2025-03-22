@@ -25,6 +25,9 @@ Hint:
 """
 text = input("Enter text:")
 words = []
+for listk in text:
+    if listk != " ":
+        words += listk
 
 
 print(words)
