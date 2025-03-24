@@ -43,28 +43,40 @@ Examples:
 
 """
 
-print("tuple items iteration")
-for x in (1, 2, 3):
-    print(x)
+# print("tuple items iteration")
+# for x in (1, 2, 3):
+#     print(x)
+#
+# print("dict items iteration")
+# for key, value in {"a": 1, "b": 2}.items():
+#     print(key, value)
+#
+# print("list items iteration")
+# for x in [1, 2, 3]:
+#     print(x)
+#
+# print("infinite loop with break condition inside")
+# i = 0
+# while True:
+#     print(i)
+#     i += 1
+#     if i >= 10:
+#         break
+#
+# print("loop with stop condition")
+# i = 0
+# while i < 10:
+#     print(i)
+#     i += 1
+#
+# condition: bool  # True/False, 1/0
 
-print("dict items iteration")
-for key, value in {"a": 1, "b": 2}.items():
-    print(key, value)
+counter = 0
+while counter <= 23:
+    if counter % 2 == 0:
+        print(counter)
+    counter += 1
+print('next after while')
 
-print("list items iteration")
-for x in [1, 2, 3]:
-    print(x)
 
-print("infinite loop with break condition inside")
-i = 0
-while True:
-    print(i)
-    i += 1
-    if i >= 10:
-        break
 
-print("loop with stop condition")
-i = 0
-while i < 10:
-    print(i)
-    i += 1
