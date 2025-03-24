@@ -14,7 +14,9 @@ def draw_square(distance: int) -> None:
     Investigate code of draw_circle
     """
     # write code here
-    ...
+    for square in range(360):
+        turtle.right(90)
+        turtle.forward(distance)
 
 
 draw_circle(5)
