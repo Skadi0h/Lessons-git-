@@ -9,5 +9,5 @@ summe = 0
 while counter <= n:
     summe += counter
     counter += 1
-   
+
 print(summe)
