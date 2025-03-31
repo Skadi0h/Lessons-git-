@@ -14,8 +14,25 @@ For example: 121, 1331, 444 are palindromes.
 #     print("Your number is palimdromes!")
 # else:
 #     print("Not this time!")
-number = int(input("Write number: "))
+number = input("Write number: ")
+int_number = int(number)
 
-while number > 0:
-    print(number % 10)
 
+numbers = []
+i = 10**(len(number) - 1)
+
+while True:
+    numbers.append(
+        int(
+            (int_number // i) % 10
+        )
+    )
+    if i == 1:
+        break
+    i /= 10
+
+
+if numbers == numbers[::-1]:
+    print("Your number is palimdromes!")
+else:
+    print("Not this time!")
