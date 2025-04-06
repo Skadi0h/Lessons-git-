@@ -7,3 +7,5 @@ def timer(seconds):
         seconds -= 1
     print("Time is over!")
 timer(seconds)
+
+# 10/12 cc. A
