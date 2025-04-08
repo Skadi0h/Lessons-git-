@@ -24,7 +24,16 @@ draw_square(100)
 import turtle   # <- get functions and classes from turtle lib
 
 # write code here
-
+def draw_triangle(side_length: int) -> None:
+    for _ in range(3):
+        turtle.forward(side_length)
+        turtle.right(120)
+def draw_circle(radius: int) -> None:
+    turtle.circle(radius)
+def draw_hexagon(side_length: int) -> None:
+    for _ in range(6):
+        turtle.forward(side_length)
+        turtle.right(60)
 
 
 
