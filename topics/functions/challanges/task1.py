@@ -1,7 +1,7 @@
 """
 Task 1
 Refactor code by using functions instead of direct math operators.
-
+в
 Notes:
 *Refactoring - the process of restructuring existing source without changing its external behavior.
 **Рефикторинг - процесс реструктуризации существующего исходного кода без изменения его внешнего поведения.

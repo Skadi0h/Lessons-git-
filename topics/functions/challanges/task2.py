@@ -17,7 +17,7 @@ def draw_square(side_length: int) -> None:
     for _ in range(4):
         turtle.forward(side_length)
         turtle.right(90)
-
+в
 draw_square(100)
 """
 
