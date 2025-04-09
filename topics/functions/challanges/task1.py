@@ -34,21 +34,22 @@ def divide(a: float, b: float) -> float:
     return a / b
 
 
+operation_mapping = {
+    '+': plus,
+    '-': minus,
+    '*': multiply,
+    '/': divide
+}
+
+
 while True:
-    first_number = input("Write the first number:")
-    if first_number == "q":
+    first_number = float(input("Write the first number:"))
+    if first_number == 911:
         break
     operation = input("Write an operation:")
-    second_number = input("Write the second number:")
-    if operation == "+":
-        result = plus(first_number, second_number)
-    elif operation == "-":
-        result = minus(a, b)
-    elif operation == "*":
-        result = multiply(a, b)
-    elif operation == "/":
-        result = divide(a, b)
-    else:
+    second_number = float(input("Write the second number:"))
+    if operation not in operation_mapping:
         print("Error")
         exit()
+    result = operation_mapping[operation](first_number, second_number)
     print(result)
