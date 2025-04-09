@@ -13,20 +13,26 @@ def plus(first_number: int, second_number: int) -> int:
 """
 
 result = 0
+
+
 def plus(a: float, b: float) -> float:
     return a + b
+
 
 def minus(a: float, b: float) -> float:
     return a - b
 
+
 def multiply(a: float, b: float) -> float:
     return a * b
+
 
 def divide(a: float, b: float) -> float:
     if b == 0:
         print("Error")
         exit()
     return a / b
+
 
 while True:
     first_number = input("Write the first number:")
@@ -35,7 +41,7 @@ while True:
     operation = input("Write an operation:")
     second_number = input("Write the second number:")
     if operation == "+":
-        result = plus(a, b)
+        result = plus(first_number, second_number)
     elif operation == "-":
         result = minus(a, b)
     elif operation == "*":
@@ -45,4 +51,4 @@ while True:
     else:
         print("Error")
         exit()
-print(result)
+    print(result)
