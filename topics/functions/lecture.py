@@ -39,3 +39,13 @@ def multiply(*, multiplier: int, **kwargs: Any) -> dict[str, Any]:
 
 
 print(multiply(multiplier=10,))
+
+
+# DECORATOR EXAMPLE
+
+def print_hello_when_called(func):
+    def wrapper(*args, **kwargs):
+        print('Hello')
+        return func(*args, **kwargs)
+    return wrapper
+
